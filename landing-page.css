@@ -1,0 +1,149 @@
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+   line-height: 1.5;
+    
+}
+.header {
+    display: flex;
+    gap: 10px;
+    background-color: #1F2937;
+    color: white ;
+    justify-content: center; 
+     padding: 5px; 
+     gap: 450px;  
+}
+.links {
+    display: flex;
+    margin-top: 10px;
+}
+.logo {
+    font-size: 18px;
+    color: #f9faf8;
+}
+.link {
+    font-size: 12px;
+}
+
+.first-layer {
+     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    gap: 100px;
+    padding: 50px;
+}
+.first-image {
+    width: 300px;
+    height: 150px;
+}
+.first-image1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    max-width: 300px;
+    line-height: 45px;
+ 
+}
+.child2 {
+    color: #f9faf8;
+    max-width: 350px;
+     line-height: 15px;
+    font-size: small;
+}
+button {
+    margin-top: 10px;
+    border: 0;
+    border-radius: 4px;
+}
+.second-layer {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom:100px;
+}    
+.first-text {
+    font-weight: bold;
+    font-size: 25px;
+}
+.second-image {
+    display: flex; 
+    margin-top: 16px;
+    justify-content: center;
+    gap: 30px;
+}
+.second-text, .img {
+    max-width: 110px;
+    max-height: 140PX;
+    line-height: 15px;
+    font-size: small;
+    sm
+}
+.img {
+    max-width: 120px;
+    max-height: 130PX;
+}
+
+.third-layer {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    padding: 40px;
+    align-items: center;
+}
+.testimonial {
+    display: flex;
+    max-width: 400px;
+}
+.thor {
+    padding-left: 270px;
+    font-weight: bold;
+}
+.forth-layer {
+    padding:  50px;
+    display: flex;
+    justify-content: center;
+}
+.forth-container {
+    display: flex;
+    padding: 16px;
+    background-color: lightblue;
+    justify-content: space-between;
+    gap: 70px;
+    margin-bottom: 40px; 
+    margin-top: 10px; 
+    border-radius: 4px;  
+}
+.call1, .call2 {
+    color: #f9faf8;
+}
+.call1{
+    font-weight: bold;
+}
+
+button {
+    width: 100px;
+    height: 25px;
+    background-color: blue;
+    color: white;
+}
+.footer {
+ font-size: small;
+ color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+   height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1F2937
+}
