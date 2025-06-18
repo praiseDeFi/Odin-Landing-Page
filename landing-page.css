@@ -1,5 +1,10 @@
 
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
     display: flex;
     flex-direction: column;
@@ -84,17 +89,18 @@ button {
     max-height: 140PX;
     line-height: 15px;
     font-size: small;
-    sm
+    border-radius: 5px;
 }
 .img {
     max-width: 120px;
     max-height: 130PX;
+    
 }
 
 .third-layer {
     display: flex;
     flex-direction: column;
-    background-color: grey;
+    background-color: rgb(207, 210, 211);
     padding: 40px;
     align-items: center;
 }
@@ -113,8 +119,10 @@ button {
 }
 .forth-container {
     display: flex;
-    padding: 16px;
-    background-color: lightblue;
+    padding: 30px;
+   background-color: #4285F4;
+    padding-left: 50px;
+    padding-right: 50px;
     justify-content: space-between;
     gap: 70px;
     margin-bottom: 40px; 
@@ -127,11 +135,14 @@ button {
 .call1{
     font-weight: bold;
 }
+.call2{
+    font-size: small;
+}
 
 button {
     width: 100px;
     height: 25px;
-    background-color: blue;
+    background-color: #4285F4;
     color: white;
 }
 .footer {
@@ -147,3 +158,8 @@ button {
   justify-content: center;
   background-color: #1F2937
 }
+.button{
+    border: 1px solid white;
+}
+
+
